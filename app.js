@@ -1,6 +1,7 @@
-var exec = require('child_process').exec
-var path = require('path')
-var cmd = path.join(
+const os = require('os')
+const exec = require('child_process').exec
+const path = require('path')
+const cmd = path.join(
 	__dirname,
 	'hapticJS',
 	'DerivedData',
