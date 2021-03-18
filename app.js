@@ -1,13 +1,32 @@
 var exec = require('child_process').exec
 var path = require('path')
-var cmd = path.join(__dirname, 'hapticJS', 'DerivedData', 'hapticJS', 'Build', 'Products', 'Release', 'hapticJS')
+var cmd = path.join(
+	__dirname,
+	'hapticJS',
+	'DerivedData',
+	'hapticJS',
+	'Build',
+	'Products',
+	'Release',
+	'hapticJS'
+)
 
-exports.vibrate = function() {
-  if (os.platform().includes('darwin')) {
-    console.log('vibrating now...')
-    exec(cmd, function(error, stdout, stderr) {
-      // command output is in stdout
-    })
-  }
-
+/**
+ *
+ * @param {"alignment"|"levelChange"|"generic"} pattern
+ */
+exports.vibrate = function (pattern) {
+	if (os.platform().includes('darwin')) {
+		switch (pattern) {
+			case 'alignment':
+				exec(`${cmd} --alignment`)
+				break
+			case 'levelChange':
+				exec(`${cmd} --levelChange`)
+				break
+			default:
+				exec(`${cmd} --generic`)
+				break
+		}
+	}
 }

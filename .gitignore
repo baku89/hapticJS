@@ -1,3 +1,30 @@
 .DS_Store
 /node_modules
 npm-debug\.log
+
+# Xcode
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.swiftmodule
+
+## Ignore DerivedData other than the Swift binary
+!HapticJS/
+HapticJS/*
+!HapticJS/DerivedData
+HapticJS/DerivedData/*
+!HapticJS/DerivedData/HapticJS
+HapticJS/DerivedData/HapticJS/*
+!HapticJS/DerivedData/HapticJS/Build
+HapticJS/DerivedData/HapticJS/Build/*
+!HapticJS/DerivedData/HapticJS/Build/Products
+HapticJS/DerivedData/HapticJS/Build/Products/*
+!HapticJS/DerivedData/HapticJS/Build/Products/Release

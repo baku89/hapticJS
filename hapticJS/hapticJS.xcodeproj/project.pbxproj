@@ -3,15 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17ED475C1F420A35008B592D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ED475B1F420A35008B592D /* main.swift */; };
+		23E2B7E32603AB4D00D77990 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E2B7E22603AB4D00D77990 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		17ED47561F420A35008B592D /* CopyFiles */ = {
+		23E2B7DD2603AB4D00D77990 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		17ED47581F420A35008B592D /* hapticJS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hapticJS; sourceTree = BUILT_PRODUCTS_DIR; };
-		17ED475B1F420A35008B592D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		23E2B7DF2603AB4D00D77990 /* HapticJS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HapticJS; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E2B7E22603AB4D00D77990 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		17ED47551F420A35008B592D /* Frameworks */ = {
+		23E2B7DC2603AB4D00D77990 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,123 +38,124 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17ED474F1F420A35008B592D = {
+		23E2B7D62603AB4D00D77990 = {
 			isa = PBXGroup;
 			children = (
-				17ED475A1F420A35008B592D /* hapticJS */,
-				17ED47591F420A35008B592D /* Products */,
+				23E2B7E22603AB4D00D77990 /* main.swift */,
+				23E2B7E02603AB4D00D77990 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		17ED47591F420A35008B592D /* Products */ = {
+		23E2B7E02603AB4D00D77990 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17ED47581F420A35008B592D /* hapticJS */,
+				23E2B7DF2603AB4D00D77990 /* HapticJS */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		17ED475A1F420A35008B592D /* hapticJS */ = {
-			isa = PBXGroup;
-			children = (
-				17ED475B1F420A35008B592D /* main.swift */,
-			);
-			path = hapticJS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		17ED47571F420A35008B592D /* hapticJS */ = {
+		23E2B7DE2603AB4D00D77990 /* HapticJS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17ED475F1F420A35008B592D /* Build configuration list for PBXNativeTarget "hapticJS" */;
+			buildConfigurationList = 23E2B7E62603AB4D00D77990 /* Build configuration list for PBXNativeTarget "HapticJS" */;
 			buildPhases = (
-				17ED47541F420A35008B592D /* Sources */,
-				17ED47551F420A35008B592D /* Frameworks */,
-				17ED47561F420A35008B592D /* CopyFiles */,
+				23E2B7DB2603AB4D00D77990 /* Sources */,
+				23E2B7DC2603AB4D00D77990 /* Frameworks */,
+				23E2B7DD2603AB4D00D77990 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = hapticJS;
-			productName = hapticJS;
-			productReference = 17ED47581F420A35008B592D /* hapticJS */;
+			name = HapticJS;
+			productName = HapticJS;
+			productReference = 23E2B7DF2603AB4D00D77990 /* HapticJS */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		17ED47501F420A35008B592D /* Project object */ = {
+		23E2B7D72603AB4D00D77990 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
-				ORGANIZATIONNAME = "Taylor Hanayik";
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					17ED47571F420A35008B592D = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = PLJK232T8G;
-						ProvisioningStyle = Automatic;
+					23E2B7DE2603AB4D00D77990 = {
+						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
-			buildConfigurationList = 17ED47531F420A35008B592D /* Build configuration list for PBXProject "hapticJS" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 23E2B7DA2603AB4D00D77990 /* Build configuration list for PBXProject "HapticJS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 17ED474F1F420A35008B592D;
-			productRefGroup = 17ED47591F420A35008B592D /* Products */;
+			mainGroup = 23E2B7D62603AB4D00D77990;
+			productRefGroup = 23E2B7E02603AB4D00D77990 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				17ED47571F420A35008B592D /* hapticJS */,
+				23E2B7DE2603AB4D00D77990 /* HapticJS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		17ED47541F420A35008B592D /* Sources */ = {
+		23E2B7DB2603AB4D00D77990 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17ED475C1F420A35008B592D /* main.swift in Sources */,
+				23E2B7E32603AB4D00D77990 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		17ED475D1F420A35008B592D /* Debug */ = {
+		23E2B7E42603AB4D00D77990 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -168,41 +169,54 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		17ED475E1F420A35008B592D /* Release */ = {
+		23E2B7E52603AB4D00D77990 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -210,54 +224,55 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		17ED47601F420A35008B592D /* Debug */ = {
+		23E2B7E72603AB4D00D77990 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				DEVELOPMENT_TEAM = PLJK232T8G;
+				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		17ED47611F420A35008B592D /* Release */ = {
+		23E2B7E82603AB4D00D77990 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				DEVELOPMENT_TEAM = PLJK232T8G;
-				ONLY_ACTIVE_ARCH = YES;
+				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17ED47531F420A35008B592D /* Build configuration list for PBXProject "hapticJS" */ = {
+		23E2B7DA2603AB4D00D77990 /* Build configuration list for PBXProject "HapticJS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17ED475D1F420A35008B592D /* Debug */,
-				17ED475E1F420A35008B592D /* Release */,
+				23E2B7E42603AB4D00D77990 /* Debug */,
+				23E2B7E52603AB4D00D77990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17ED475F1F420A35008B592D /* Build configuration list for PBXNativeTarget "hapticJS" */ = {
+		23E2B7E62603AB4D00D77990 /* Build configuration list for PBXNativeTarget "HapticJS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17ED47601F420A35008B592D /* Debug */,
-				17ED47611F420A35008B592D /* Release */,
+				23E2B7E72603AB4D00D77990 /* Debug */,
+				23E2B7E82603AB4D00D77990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 17ED47501F420A35008B592D /* Project object */;
+	rootObject = 23E2B7D72603AB4D00D77990 /* Project object */;
 }
