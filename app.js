@@ -14,7 +14,7 @@ const cmd = path.join(
 
 /**
  *
- * @param {"alignment"|"levelChange"|"generic"} pattern
+ * @param {("alignment"|"levelChange"|"generic")} [pattern]
  */
 exports.vibrate = function (pattern) {
 	if (os.platform().includes('darwin')) {
