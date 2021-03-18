@@ -1,23 +1,27 @@
 {
-  "name": "hapticjs",
-  "version": "1.0.5",
-  "description": "vibrate macOS trackpad ",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "haptic",
-    "macos",
-    "trackpad",
-    "vibrate",
-    "buzz"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hanayik/hapticJS.git"
-  },
-  "author": "Taylor Hanayik",
-  "license": "MIT",
-  "dependencies": {}
+	"name": "hapticjs",
+	"version": "1.0.5",
+	"description": "vibrate macOS trackpad ",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"haptic",
+		"macos",
+		"trackpad",
+		"vibrate",
+		"buzz"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hanayik/hapticJS.git"
+	},
+	"author": "Taylor Hanayik",
+	"license": "MIT",
+	"dependencies": {},
+	"files": [
+		"app.js",
+		"HapticJS/DerivedData/HapticJS/Build/Release/HapticJS"
+	]
 }
